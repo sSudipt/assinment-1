@@ -139,7 +139,7 @@ background: none;
     width: 1320px;
 height: 482px;
 flex-shrink: 0;
-background-color:  rgba(255, 0, 0, 0.05)
+background-color:  rgba(206, 60, 60, 0.05)
 }
 .E{
     padding: 100px 0;
@@ -177,25 +177,25 @@ padding: 15px 35px;
 }
 .D{
     width: 1600px;
-height: 1335px;
-text-align: left;
+   height: 1335px;
+  margin-top: 3%;
+}
+.M{
+    text-align: left;
+    margin-left: 5%;
 }
 .F{
     color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-m
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
 }
 .G{
     color:  #F00;
 font-family: Merriweather;
 font-size: 48px;
-font-style: normal;
 font-weight: 900;
-line-height: normal;
 text-transform: capitalize;
 }
 .H{
@@ -239,19 +239,30 @@ font-weight: 400;
 line-height: 32px; /* 160% */
 }
 footer{
-    /* background-color: #070211; */
-    width: 1600px;
-     height: 609px;
-flex-shrink: 0;
-
-
+   
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    background-color: wheat;
+    
+    justify-content: space-between;
+    width: none;
 }
-#A{
-    text-align: left;
+.bottom{
+    bottom: 0;
+   padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-between;
 }
-#B{
-    color: black; 
-    text-align: left;
-    padding: 30% 0 30%;
-
+.s{
+    color:white;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
